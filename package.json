@@ -1,0 +1,16 @@
+{
+  "name": "file-md-ms",
+  "version": "1.0.0",
+  "description": "A file metadata microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "ota",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "serve-favicon": "^2.4.5"
+  }
+}

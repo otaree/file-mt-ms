@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style2.css">
+    <title>File Metadata Microservice</title>
+    <style>
+        .main {
+            width: 80%;
+            margin: 0 auto;
+            font-family: sans-serif;
+        }
+
+        .main p {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 28px;
+            font-weight: 400;
+            color: #433c32;
+
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p>Submit a file to view its filesize.</p>
+        <form method="post" action="/" enctype="multipart/form-data">
+            <input type="file" name="myFile">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
